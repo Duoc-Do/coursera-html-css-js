@@ -17,3 +17,19 @@
     font-size: 1.8em;
     margin: 0 0 0.8em;
 }
+
+.navbar-default .navbar-nav>li>a:hover {
+    background-color: #f90;
+    color: #fff;
+}
+
+.item-desc {
+    max-height: 600px;
+    overflow: auto;
+}
+
+@media (max-width:767px) {
+    .item-desc {
+        max-height: none;
+    }
+}
